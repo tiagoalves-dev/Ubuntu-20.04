@@ -99,7 +99,7 @@ On the first screen you will need to add a name for Kerberos default REALM in up
 
 9. Now, start the domain provisioning interactively by issuing the below command with root privileges and accept the default options that Samba provides you.
 
-> $ sudo samba-tool domain provision 	
+> $ sudo samba-tool domain provision --use-rfc2307 --interactive
 
 ``` sh
 Realm [HTU.LOCAL]:
